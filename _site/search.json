@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Volby",
+    "section": "",
+    "text": "Na této stránce najdete mapy vybraných českých voleb."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Tyto stránky byly vytvořeny ve formátu Quarto a za použití jazyka R. Jsou hostovány na platformě Netlify. Zdrojové soubory jsou zveřejněny na GitHubu."
+  }
+]
