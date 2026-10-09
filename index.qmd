@@ -1,5 +1,5 @@
 ---
-title: "Volby"
+title: "Hlavní strana"
 ---
 
-Na této stránce najdete mapy vybraných českých voleb.
+Na této stránce najdete mapy vybraných českých voleb. Začínáme senátními volbami 2020.
