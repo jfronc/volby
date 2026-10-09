@@ -1,6 +1,9 @@
 project:
   type: website
 
+metadata-files:
+  - _nav-senat.yml
+
 website:
   title: "Volby"
   site-url: https://volby.jfronc.cz/

@@ -1,0 +1,32 @@
+website:
+  navbar:
+    left:
+    - text: Senát 2020
+      menu:
+      - so12.html
+      - so15.html
+      - so18.html
+      - so21.html
+      - so24.html
+      - so27.html
+      - so3.html
+      - so30.html
+      - so33.html
+      - so36.html
+      - so39.html
+      - so42.html
+      - so45.html
+      - so48.html
+      - so51.html
+      - so54.html
+      - so57.html
+      - so6.html
+      - so60.html
+      - so63.html
+      - so66.html
+      - so69.html
+      - so72.html
+      - so75.html
+      - so78.html
+      - so81.html
+      - so9.html
