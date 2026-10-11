@@ -1,0 +1,8 @@
+---
+format: html
+params:
+  so_id: 72
+---
+
+{{< include _so_template.qmd >}}
+

@@ -1,1 +1,6 @@
-/* css styles */
+/* long dropdown */
+.navbar .dropdown-menu {
+  max-height: 75vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}

@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "senat/2020/*.html"
 
 metadata-files:
   - _nav-senat.yml
@@ -26,5 +28,7 @@ format:
 
 execute:
   freeze: auto
-
+  echo: false
+  warning: false
+  message: false
 

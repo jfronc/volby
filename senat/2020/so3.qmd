@@ -1,0 +1,37 @@
+---
+format: html
+params:
+  so_id: 3
+---
+
+```{r}
+xfun::pkg_attach(c("tidyverse", "magrittr", "xml2", "sf", "scales", "ggiraph"))
+gh <- "https://raw.githubusercontent.com/jfronc/volbycz/main/"
+source(paste0(gh, "utils/bubble_map.R"))
+source(paste0(gh, "senate/create_senate_map.R"))
+
+cache <- readRDS(here::here("senat/2020/data.rds"))
+
+district_data <- cache$election %>% filter(so_id == params$so_id)
+
+maps <- create_senate_map(
+  target_so_id = params$so_id,
+  district_data      = district_data,
+  municipality_cache = cache$municipalities,
+  quarter_cache      = cache$quarters
+)
+```
+
+```{r map 1}
+
+htmltools::tagList(maps$r1)
+
+```
+
+```{r map 2}
+
+htmltools::tagList(maps$r2)
+
+```
+
+

@@ -3,30 +3,113 @@ website:
     left:
     - text: Senát 2020
       menu:
-      - so12.html
-      - so15.html
-      - so18.html
-      - so21.html
-      - so24.html
-      - so27.html
-      - so3.html
-      - so30.html
-      - so33.html
-      - so36.html
-      - so39.html
-      - so42.html
-      - so45.html
-      - so48.html
-      - so51.html
-      - so54.html
-      - so57.html
-      - so6.html
-      - so60.html
-      - so63.html
-      - so66.html
-      - so69.html
-      - so72.html
-      - so75.html
-      - so78.html
-      - so81.html
-      - so9.html
+      - text: Senátní obvod 3
+        href: senat/2020/so3.html
+      - text: Senátní obvod 6
+        href: senat/2020/so6.html
+      - text: Senátní obvod 9
+        href: senat/2020/so9.html
+      - text: Senátní obvod 12
+        href: senat/2020/so12.html
+      - text: Senátní obvod 15
+        href: senat/2020/so15.html
+      - text: Senátní obvod 18
+        href: senat/2020/so18.html
+      - text: Senátní obvod 21
+        href: senat/2020/so21.html
+      - text: Senátní obvod 24
+        href: senat/2020/so24.html
+      - text: Senátní obvod 27
+        href: senat/2020/so27.html
+      - text: Senátní obvod 30
+        href: senat/2020/so30.html
+      - text: Senátní obvod 33
+        href: senat/2020/so33.html
+      - text: Senátní obvod 36
+        href: senat/2020/so36.html
+      - text: Senátní obvod 39
+        href: senat/2020/so39.html
+      - text: Senátní obvod 42
+        href: senat/2020/so42.html
+      - text: Senátní obvod 45
+        href: senat/2020/so45.html
+      - text: Senátní obvod 48
+        href: senat/2020/so48.html
+      - text: Senátní obvod 51
+        href: senat/2020/so51.html
+      - text: Senátní obvod 54
+        href: senat/2020/so54.html
+      - text: Senátní obvod 57
+        href: senat/2020/so57.html
+      - text: Senátní obvod 60
+        href: senat/2020/so60.html
+      - text: Senátní obvod 63
+        href: senat/2020/so63.html
+      - text: Senátní obvod 66
+        href: senat/2020/so66.html
+      - text: Senátní obvod 69
+        href: senat/2020/so69.html
+      - text: Senátní obvod 72
+        href: senat/2020/so72.html
+      - text: Senátní obvod 75
+        href: senat/2020/so75.html
+      - text: Senátní obvod 78
+        href: senat/2020/so78.html
+      - text: Senátní obvod 81
+        href: senat/2020/so81.html
+    - text: Senát 2026
+      menu:
+      - text: Senátní obvod 3
+        href: senat/2026/so3.html
+      - text: Senátní obvod 6
+        href: senat/2026/so6.html
+      - text: Senátní obvod 9
+        href: senat/2026/so9.html
+      - text: Senátní obvod 12
+        href: senat/2026/so12.html
+      - text: Senátní obvod 15
+        href: senat/2026/so15.html
+      - text: Senátní obvod 18
+        href: senat/2026/so18.html
+      - text: Senátní obvod 21
+        href: senat/2026/so21.html
+      - text: Senátní obvod 24
+        href: senat/2026/so24.html
+      - text: Senátní obvod 27
+        href: senat/2026/so27.html
+      - text: Senátní obvod 30
+        href: senat/2026/so30.html
+      - text: Senátní obvod 33
+        href: senat/2026/so33.html
+      - text: Senátní obvod 36
+        href: senat/2026/so36.html
+      - text: Senátní obvod 39
+        href: senat/2026/so39.html
+      - text: Senátní obvod 42
+        href: senat/2026/so42.html
+      - text: Senátní obvod 45
+        href: senat/2026/so45.html
+      - text: Senátní obvod 48
+        href: senat/2026/so48.html
+      - text: Senátní obvod 51
+        href: senat/2026/so51.html
+      - text: Senátní obvod 54
+        href: senat/2026/so54.html
+      - text: Senátní obvod 57
+        href: senat/2026/so57.html
+      - text: Senátní obvod 60
+        href: senat/2026/so60.html
+      - text: Senátní obvod 63
+        href: senat/2026/so63.html
+      - text: Senátní obvod 66
+        href: senat/2026/so66.html
+      - text: Senátní obvod 69
+        href: senat/2026/so69.html
+      - text: Senátní obvod 72
+        href: senat/2026/so72.html
+      - text: Senátní obvod 75
+        href: senat/2026/so75.html
+      - text: Senátní obvod 78
+        href: senat/2026/so78.html
+      - text: Senátní obvod 81
+        href: senat/2026/so81.html
