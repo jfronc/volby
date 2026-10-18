@@ -1,5 +1,6 @@
 ---
 format: html
+pagetitle: Senátní obvod č. 27
 params:
   so_id: 27
 ---

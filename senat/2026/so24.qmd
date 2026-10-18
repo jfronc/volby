@@ -1,5 +1,6 @@
 ---
 format: html
+pagetitle: Senátní obvod č. 24
 params:
   so_id: 24
 ---

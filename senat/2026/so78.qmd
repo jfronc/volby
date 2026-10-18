@@ -1,5 +1,6 @@
 ---
 format: html
+pagetitle: Senátní obvod č. 78
 params:
   so_id: 78
 ---

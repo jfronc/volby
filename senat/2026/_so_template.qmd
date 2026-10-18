@@ -1,11 +1,13 @@
 
-```{r}
+```{r setup}
 xfun::pkg_attach(c("tidyverse", "magrittr", "xml2", "sf", "scales", "ggiraph"))
 gh <- "https://raw.githubusercontent.com/jfronc/volbycz/main/"
 source(paste0(gh, "utils/bubble_map.R"))
 source(paste0(gh, "senate/create_senate_map.R"))
 
-cache <- readRDS(here::here("senat/2026/data.rds"))
+yr <- 2026
+
+cache <- paste0("senat/", yr, "/data.rds") |> here::here() |> readRDS()
 
 district_data <- cache$election %>% filter(so_id == params$so_id)
 if (nrow(district_data) == 0) {
@@ -22,7 +24,23 @@ maps <- create_senate_map(
 
 ```{r maps}
 htmltools::tagList(
-  htmltools::div(style = "margin-bottom: 3.5rem;", maps$r1),
-  if (!is.null(maps$r2)) htmltools::div(maps$r2)
+  htmltools::div(style = "margin-bottom: 2rem;", maps$r1),
+  if (!is.null(maps$r2)) htmltools::div(maps$r2),
+  htmltools::div(style = "margin-bottom: 2rem;"),
 )
 ```
+
+```{r next}
+#| results: asis
+if (params$so_id < 79) {
+ link_next <- paste0("https://volby.jfronc.cz/senat/", yr, "/so", params$so_id + 3) 
+ cat(paste0("[Následující obvod &gt;](", link_next, ")\n"))
+}
+
+```
+
+```{r button}
+link_hist <- paste0("https://volby.jfronc.cz/senat/2020/so", params$so_id)
+```
+
+[&lt; Rok 2020](`r link_hist`)

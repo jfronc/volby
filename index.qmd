@@ -2,4 +2,4 @@
 title: "Hlavní strana"
 ---
 
-Na této stránce najdete mapy vybraných českých voleb. V současnosti jsou k dispozici senátní volby 2020 a 2026 (1. kolo).
+Na této stránce najdete mapy vybraných českých voleb. V současnosti jsou k dispozici senátní volby 2020 a 2026 (1. i 2. kolo).

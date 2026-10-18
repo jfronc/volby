@@ -6,12 +6,13 @@ yr = 2026
 walk(districts, ~{
   qmd_content <- sprintf('---
 format: html
+pagetitle: Senátní obvod č. %d
 params:
   so_id: %d
 ---
 
 {{< include _so_template.qmd >}}
-', .x)
+', .x, .x)
   
   writeLines(qmd_content, file.path("senat/", yr, sprintf("so%d.qmd", .x)))
 })
